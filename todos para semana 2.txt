@@ -1,0 +1,15 @@
+to do's
+instalar:
+- visual studio 2015 (dreamspark)
+- sql server 2016 (dreamspark)
+- cuenta en trello (gmail)
+- cuenta en github
+- cuenta en visualstudio.com
+clases bd - northwind
+ + Orders
+ + Products
+ + Customers
+ + gato (hasta donde pueda)
+ solución en visual studio sincronizando desde github
+ 
+ 
