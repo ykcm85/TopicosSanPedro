@@ -1,0 +1,5 @@
+D:\Desarrollos\2016-3-groupware-Grecia3\Topicos.Gato.App\Topicos.Gato.BL\bin\Debug\Topicos.Gato.BL.dll
+D:\Desarrollos\2016-3-groupware-Grecia3\Topicos.Gato.App\Topicos.Gato.BL\bin\Debug\Topicos.Gato.BL.pdb
+D:\Desarrollos\2016-3-groupware-Grecia3\Topicos.Gato.App\Topicos.Gato.BL\obj\Debug\Topicos.Gato.BL.csprojResolveAssemblyReference.cache
+D:\Desarrollos\2016-3-groupware-Grecia3\Topicos.Gato.App\Topicos.Gato.BL\obj\Debug\Topicos.Gato.BL.dll
+D:\Desarrollos\2016-3-groupware-Grecia3\Topicos.Gato.App\Topicos.Gato.BL\obj\Debug\Topicos.Gato.BL.pdb

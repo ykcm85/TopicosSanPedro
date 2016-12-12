@@ -44,7 +44,6 @@
     <Compile Include="Acciones\JugarEnUnaPosicion.cs" />
     <Compile Include="Modelo\Coordenada.cs" />
     <Compile Include="Modelo\EstructuraDelJuegoVersionDos.cs" />
-    <Compile Include="Modelo\EstructuraDelJuegoVersionUno.cs" />
     <Compile Include="Validaciones\AlgunJugadorHaGanado.cs" />
     <Compile Include="Validaciones\ExistenEspaciosDisponiblesParaJugar.cs" />
     <Compile Include="Validaciones\ElJuegoTerminaEmpatado.cs" />

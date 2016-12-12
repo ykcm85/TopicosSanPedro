@@ -5,3 +5,14 @@ C:\Users\Yésika\Source\Repos\TopicosSanPedro\Topicos.Gato.App\Topicos.Gato.App\
 C:\Users\Yésika\Source\Repos\TopicosSanPedro\Topicos.Gato.App\Topicos.Gato.App\obj\Debug\Topicos.Gato.App.csprojResolveAssemblyReference.cache
 C:\Users\Yésika\Source\Repos\TopicosSanPedro\Topicos.Gato.App\Topicos.Gato.App\obj\Debug\Topicos.Gato.App.exe
 C:\Users\Yésika\Source\Repos\TopicosSanPedro\Topicos.Gato.App\Topicos.Gato.App\obj\Debug\Topicos.Gato.App.pdb
+D:\Desarrollos\2016-3-groupware-Grecia3\Topicos.Gato.App\Topicos.Gato.App\bin\Debug\Topicos.Gato.App.exe.config
+D:\Desarrollos\2016-3-groupware-Grecia3\Topicos.Gato.App\Topicos.Gato.App\obj\Debug\Topicos.Gato.App.exe
+D:\Desarrollos\2016-3-groupware-Grecia3\Topicos.Gato.App\Topicos.Gato.App\obj\Debug\Topicos.Gato.App.pdb
+D:\Desarrollos\2016-3-groupware-Grecia3\Topicos.Gato.App\Topicos.Gato.App\bin\Debug\Topicos.Gato.App.exe
+D:\Desarrollos\2016-3-groupware-Grecia3\Topicos.Gato.App\Topicos.Gato.App\bin\Debug\Topicos.Gato.App.pdb
+D:\Desarrollos\2016-3-groupware-Grecia3\Topicos.Gato.App\Topicos.Gato.App\bin\Debug\Topicos.Gato.BL.dll
+D:\Desarrollos\2016-3-groupware-Grecia3\Topicos.Gato.App\Topicos.Gato.App\bin\Debug\Topicos.Gato.BL.pdb
+D:\Desarrollos\2016-3-groupware-Grecia3\Topicos.Gato.App\Topicos.Gato.App\obj\Debug\Topicos.Gato.App.csprojResolveAssemblyReference.cache
+D:\Desarrollos\GatoApp\Topicos.Gato.App\Topicos.Gato.App\bin\Debug\Topicos.Gato.App.exe.config
+D:\Desarrollos\GatoApp\Topicos.Gato.App\Topicos.Gato.App\obj\Debug\Topicos.Gato.App.exe
+D:\Desarrollos\GatoApp\Topicos.Gato.App\Topicos.Gato.App\obj\Debug\Topicos.Gato.App.pdb

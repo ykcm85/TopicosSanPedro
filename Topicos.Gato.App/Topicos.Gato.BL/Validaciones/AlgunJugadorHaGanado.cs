@@ -6,7 +6,10 @@ using System.Threading.Tasks;
 
 namespace Topicos.Gato.BL.Validaciones
 {
-    internal class AlgunJugadorHaGanado
+    partial class AlgunJugadorHaGanado
     {
+
+
+
     }
 }
