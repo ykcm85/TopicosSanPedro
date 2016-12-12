@@ -40,15 +40,11 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Acciones\AsignarPosicionDelTableroComoNoVacia.cs" />
-    <Compile Include="Acciones\JugarEnUnaPosicion.cs" />
-    <Compile Include="Modelo\Coordenada.cs" />
-    <Compile Include="Modelo\EstructuraDelJuegoVersionDos.cs" />
-    <Compile Include="Validaciones\AlgunJugadorHaGanado.cs" />
-    <Compile Include="Validaciones\ExistenEspaciosDisponiblesParaJugar.cs" />
-    <Compile Include="Validaciones\ElJuegoTerminaEmpatado.cs" />
-    <Compile Include="Validaciones\ValidarEntradaCorrecta.cs" />
-    <Compile Include="Validaciones\ValidarJugada.cs" />
+    <Compile Include="Coordenada.cs" />
+    <Compile Include="EstructuraDelJuegoVersionDos.cs" />
+    <Compile Include="Mensajes.cs" />
+    <Compile Include="RealizarJugada.cs" />
+    <Compile Include="ValidacionesGenerales.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
