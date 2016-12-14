@@ -14,7 +14,7 @@ namespace Topicos.Gato.BL.Validaciones
         public const string mGanadorNO = "No hay ganador";
         public const string mGanadorSI = "Hay ganador";
         public const string mGanadorSINO = "hay empate";
-       
+
 
     }
 }

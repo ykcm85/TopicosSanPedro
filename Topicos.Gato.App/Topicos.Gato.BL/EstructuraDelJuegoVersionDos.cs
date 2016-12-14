@@ -15,7 +15,7 @@ namespace Topicos.Gato.BL.Modelo
 
         public string[,] TableroDeJuego { set; get; }
 
-        private const int LaPosicionEstaVacia = 0;
+        public int DimensionTablero { get; set; }
 
         public enum Jugador
         {
@@ -27,9 +27,17 @@ namespace Topicos.Gato.BL.Modelo
         /// Dimensionar el tamaño real del tablero del GATO
         /// </summary>
         /// <param name="DimensionTablero">Cantidad de filas y columnas para el tablero</param>
-        public EstructuraDelJuegoVersionDos(int DimensionTablero)
+        public void CrearEstructuraDelJuegoVersionDos()
         {
+            int cont = -1;
             TableroDeJuego = new string[DimensionTablero, DimensionTablero];
+            for (int i = 0; i < DimensionTablero; i++)
+            {
+                for (int ii = 0; ii < DimensionTablero; ii++)
+                {
+                    TableroDeJuego[i,ii] = (cont--).ToString();
+                }
+            }
         }
 
 

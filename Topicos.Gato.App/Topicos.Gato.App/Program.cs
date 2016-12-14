@@ -41,18 +41,23 @@ namespace Topicos.Gato.App
             Console.Write("Digite el tamaño del GATO: ");
 
             // la creacion del tablero AxB
-            estructura = new EstructuraDelJuegoVersionDos(int.Parse(Console.ReadLine().ToString()));
-            jugada = new RealizarJugada(estructura.TableroDeJuego);
+            estructura = new EstructuraDelJuegoVersionDos();
+            estructura.DimensionTablero = int.Parse(Console.ReadLine().ToString());
+            estructura.CrearEstructuraDelJuegoVersionDos();
 
-            Console.Clear();
+            jugada = new RealizarJugada(estructura.TableroDeJuego);
+            jugada.DimensionTablero = estructura.DimensionTablero;
+
+            int jugadas = 0;
 
             do
             {
 
+                Console.Clear();
                 posicion = new Coordenada();
-                Console.Write("Jugador 1(X), digite la posicion X:");
+                Console.Write("Jugador 1(X), digite la posicion X - Max Posición: " + (estructura.DimensionTablero - 1) + " : ");
                 posicion.fila = int.Parse(Console.ReadLine().ToString());
-                Console.Write("Jugador 1(X), digite la posicion Y:");
+                Console.Write("Jugador 1(X), digite la posicion Y - Max Posición: " + (estructura.DimensionTablero - 1) + " : ");
                 posicion.columna = int.Parse(Console.ReadLine().ToString());
 
                 Mensaje = jugada.Jugada(posicion, EstructuraDelJuegoVersionDos.Jugador.JugadorUnoX);
@@ -63,9 +68,9 @@ namespace Topicos.Gato.App
                     Console.ReadKey();
                     Console.Clear();
                     posicion = new Coordenada();
-                    Console.Write("Jugador 1(X), digite la posicion X:");
+                    Console.Write("Jugador 1(X), digite la posicion X - Max Posición: " + (estructura.DimensionTablero - 1) + " : ");
                     posicion.fila = int.Parse(Console.ReadLine().ToString());
-                    Console.Write("Jugador 1(X), digite la posicion Y:");
+                    Console.Write("Jugador 1(X), digite la posicion Y - Max Posición: " + (estructura.DimensionTablero - 1) + " : ");
                     posicion.columna = int.Parse(Console.ReadLine().ToString());
                 }
                 else
@@ -74,26 +79,23 @@ namespace Topicos.Gato.App
                 }
 
 
-
                 Console.Clear();
-
                 posicion = new Coordenada();
-                Console.Write("Jugador 2(O), digite la posicion X:");
+                Console.Write("Jugador 2(O), digite la posicion X - Max Posición: " + (estructura.DimensionTablero - 1) + " : ");
                 posicion.fila = int.Parse(Console.ReadLine().ToString());
-                Console.Write("Jugador 2(O), digite la posicion Y:");
+                Console.Write("Jugador 2(O), digite la posicion Y - Max Posición: " + (estructura.DimensionTablero - 1) + " : ");
                 posicion.columna = int.Parse(Console.ReadLine().ToString());
 
                 Mensaje = jugada.Jugada(posicion, EstructuraDelJuegoVersionDos.Jugador.JugadorDosO);
-
                 if (Mensaje.Length > 0)
                 {
                     Console.Write(string.Format("Jugador 2(O), Se ha cometido un error: {0}, rediseñe la jugada....  ", Mensaje));
                     Console.ReadKey();
                     Console.Clear();
                     posicion = new Coordenada();
-                    Console.Write("Jugador 2(O), digite la posicion X:");
+                    Console.Write("Jugador 2(O), digite la posicion X - Max Posición: " + (estructura.DimensionTablero - 1) + " : ");
                     posicion.fila = int.Parse(Console.ReadLine().ToString());
-                    Console.Write("Jugador 2(O), digite la posicion Y:");
+                    Console.Write("Jugador 2(O), digite la posicion Y - Max Posición: " + (estructura.DimensionTablero - 1) + " : ");
                     posicion.columna = int.Parse(Console.ReadLine().ToString());
                 }
                 else
@@ -101,8 +103,15 @@ namespace Topicos.Gato.App
                     estructura.TableroDeJuego = jugada.TableroDeJuego;
                 }
 
+                jugadas++;
 
-            } while (true);
+            } while (jugadas <= (jugada.TableroDeJuego.Length / 2));
+
+            if (jugada.hayEmpate())
+            {
+                Console.WriteLine(" Se empato el juego. ");
+                Console.ReadKey();
+            }
 
             estructura = null;
 
