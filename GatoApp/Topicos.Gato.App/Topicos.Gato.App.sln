@@ -1,0 +1,28 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.25420.1
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Topicos.Gato.App", "Topicos.Gato.App\Topicos.Gato.App.csproj", "{F930EF69-852D-438D-A158-9002BA0054BB}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Topicos.Gato.BL", "Topicos.Gato.BL\Topicos.Gato.BL.csproj", "{A8792181-5F70-48EE-A0BD-A5E463D73E42}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{F930EF69-852D-438D-A158-9002BA0054BB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F930EF69-852D-438D-A158-9002BA0054BB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F930EF69-852D-438D-A158-9002BA0054BB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F930EF69-852D-438D-A158-9002BA0054BB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A8792181-5F70-48EE-A0BD-A5E463D73E42}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A8792181-5F70-48EE-A0BD-A5E463D73E42}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A8792181-5F70-48EE-A0BD-A5E463D73E42}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A8792181-5F70-48EE-A0BD-A5E463D73E42}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
